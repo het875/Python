@@ -1,0 +1,28 @@
+🔹 Set Colors and Line Styles:
+
+    plt.plot(x, y, color='purple', linestyle='-.', linewidth=2, marker='s', markersize=8)
+
+
+
+
+🔹 Control Axis Limits:
+
+    plt.xlim(0, 6)
+    plt.ylim(0, 60)
+
+
+
+🔹 Change Ticks & Labels:
+
+    plt.xticks([1, 2, 3, 4, 5], ['One', 'Two', 'Three', 'Four', 'Five'])
+    plt.yticks([10, 20, 30, 40, 50], ['Low', 'Medium', 'High', 'Very High', 'Extreme'])
+
+
+
+
+
+🔹 Rotate Axis Labels:
+
+    plt.xticks(rotation=45)
+
+
